@@ -1,9 +1,6 @@
 % !TEX program = xelatex
 
 \documentclass{resume}
-%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
-
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
@@ -13,7 +10,8 @@
    Address: Henry St, Sheffield S3 7EQ, UK
   \email{jishen027@gmail.com} \textperiodcentered\ 
   \phone{07419127308 } \textperiodcentered\ }
-  \linkedin[https://www.linkedin.com/in/jeblee]{Jeb Lee}
+  \linkedin {https://www.linkedin.com/in/jeblee} \textperiodcentered\
+  \github {https://github.com/jishen027}
 
   \section{\faCogs\ Skills}
   \begin{itemize}[parsep=0.5ex]
@@ -35,8 +33,6 @@
   \item Automated Software Testing and Deployment: Transitioned to automated testing and deployment using \textbf{Docker}, \textbf{Azure Pipeline}, and \textbf{Digital Ocean Droplet}; integrated Chat GPT for automated task management.
 \end{itemize}
 
-
-
 \datedsubsection{\textbf{MyFair.co Ltd} Seoul, South Korea}{Jun 2019 -- Nov 2019}
 \role{Junior Web Developer}{Internship}
 \begin{itemize}
@@ -47,6 +43,18 @@
 \end{itemize}
 
 
+\section{\faServer\ Recent Projects}
+\subsection*{\textbf{Virtual Public Consultation}}
+\href{https://virtualconsultation.the360expo.com}{\textbf{Link}: https://virtualconsultation.the360expo.com}  \\
+\textbf{Technologies Used:} Vue.js, Laravel(Sanctum, Fortify, Cashier), MySQL, Express.js, WebSocket, Stripe, Azure Pipeline(CI/CD) \\
+\textbf{Description:} Engineered a 24/7 accessible online platform for community planning consultations, enhancing user engagement through an interactive interface and real-time features.
+
+\subsection*{\textbf{Vantage Touchscreen}}
+\href{https://www.vantage.eyesiteview.uk/frontend/testsite}{\textbf{Link}: https://www.vantage.eyesiteview.uk/frontend/testsite}  \\
+\textbf{Technologies Used:} Vue.js, Laravel, MySQL, Socket.io, Google Maps \\
+\textbf{Description:} Developed an interactive touchscreen system for sales centers, integrating CGI content like 360 tours and site plans, significantly improving customer experience and interaction.
+
+% Education
 \section{\faGraduationCap\ Education}
 \datedsubsection{\textbf{The University of Sheffield}, Sheffield, Uk}{2021 -- 2022}
 \textit{M.S.} in Advanced Computer Science(CS), Sep. 2021 -- Sep. 2022.
@@ -58,9 +66,10 @@
 
 \section{\faInfo\ Miscellaneous}
 \begin{itemize}[parsep=0.5ex]
-  \item GitHub: https://github.com/jishen027
-  \item LinkedIn: https://www.linkedin.com/in/jeblee
-  \item Languages: English - Fluent, Mandarin - Native speaker, Korean - Fluent
+  \item \href{https://github.com/jishen027}{\textbf{GitHub}: https://github.com/jishen027}
+  %\item \href{https://www.jeblee.co.uk}{\textbf{Website}: https://www.jeblee.co.uk}
+  \item \href{https://www.linkedin.com/in/jeblee}{\textbf{LinkedIn}: https://www.linkedin.com/in/jeblee} 
+  \item \textbf{Languages:} English - Fluent, Mandarin - Native speaker, Korean - Fluent
 \end{itemize}
 
 %% Reference
